@@ -2,6 +2,7 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>자기소개 화면</title>
 	<style>
 		body {
@@ -35,29 +36,6 @@
 		#my {
 			padding: 0px 0px 20px 0px;
 		}
-
-		#personal_form {
-			padding: 10px;
-			border-radius: 20px;
-			color: rgb(129, 30, 241);
-			font-weight: bold;
-			background-color: rgb(255, 255, 255);
-		}
-
-		#form_id {
-			padding: 10px;
-		}
-
-		#form_password {
-			padding: 10px;
-		}
-
-		#login_button {
-			padding: 10px;
-			background-color: deepskyblue;
-			border: 0px;
-			border-radius: 10px;
-		}
 	</style>
 </head>
 
@@ -65,7 +43,7 @@
 	<h1>자기소개 화면</h1>
 	<hr>
 	<div id="images">
-		<img id="my" src="yumin.jpg" width="150" alt="유민 증명사진">
+		<img id="my" src="img/yumin.jpg" width="150" alt="유민 증명사진">
 		<img src="https://hansung.ac.kr/sites/hansung/images/common/NEW_Logo_2.png" width="150" alt="한성대 로고">
 	</div>
 	<hr>
@@ -94,20 +72,7 @@
 		<dd>미래인재학부</dd>
 	</dl>
 
-	<div id="personal_form">
-		<h3>로그인 하기</h3>
-		<form name="form" method="get">
-			<label id="form_id">
-				사용자 ID : <input type="text" size="15" value=""><br>
-			</label>
-			<label id="form_password">
-				비밀번호 : <input type="password" size="15" value=""><br>
-			</label>
-			<div style="padding: 10px;">
-				<input id="login_button" type="button" value="로그인">
-			</div>
-		</form>
-	</div>
+	<a href="sign_up.html">회원가입</a>
 </body>
 
 </html>
