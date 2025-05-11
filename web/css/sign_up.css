@@ -1,0 +1,22 @@
+#personal_form {
+  padding: 10px;
+  border-radius: 20px;
+  color: rgb(129, 30, 241);
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+}
+
+#form_id {
+  padding: 10px;
+}
+
+#form_password {
+  padding: 10px;
+}
+
+#login_button {
+  padding: 10px;
+  background-color: deepskyblue;
+  border: 0px;
+  border-radius: 10px;
+}
