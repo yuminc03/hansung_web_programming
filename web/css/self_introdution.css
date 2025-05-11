@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(247, 242, 255);
+}
+
+h3,
+h1 {
+  color: rgb(129, 30, 241);
+}
+
+hr {
+  color: skyblue;
+  border: 2px solid rgb(210, 162, 250);
+}
+
+ul {
+  color: rgb(129, 30, 241);
+}
+
+dl {
+  color: rgb(210, 162, 250);
+}
+
+#images {
+  position: relative;
+  display: grid;
+  padding: 10px;
+}
+
+#my {
+  padding: 0px 0px 20px 0px;
+}
