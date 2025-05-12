@@ -56,3 +56,15 @@
   border: 0px;
   border-radius: 10px;
 }
+
+#signup_label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #b8ceff;
+}
+
+#signup_selector {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ded3fd;
+}
