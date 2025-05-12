@@ -57,14 +57,32 @@
   border-radius: 10px;
 }
 
-#signup_label {
-  font-size: 20px;
+#signup_name {
+  font-size: 16px;
   font-weight: bold;
   color: #b8ceff;
+  padding: 0 10px 20px 0;
+  display: inline-block;
+}
+
+#signup_label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #b8ceff;
+  padding: 0 0 10px 0;
+  display: block;
 }
 
 #signup_selector {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   color: #ded3fd;
+}
+
+#input_text {
+  padding: 5px;
+  border: 1px solid;
+  background-color: #effbff;
+  border-radius: 5px;
+  border-color: #e4ebf1;
 }
