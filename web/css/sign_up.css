@@ -10,6 +10,28 @@
   background-color: white;
   padding: 20px;
   border-radius: 20px;
+  box-shadow: 0 0 20px #6e7f9d;
+  display: block;
+}
+
+#left_box {
+  display: inline-block;
+}
+
+#leftbox_title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #6e7f9d;
+}
+
+#leftbox_content {
+  font-size: 16px;
+  font-weight: 500;
+  color: #6e7f9d;
+}
+
+#right_box {
+  display: inline-block;
 }
 
 #personal_form {
