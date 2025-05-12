@@ -7,59 +7,71 @@
   <link href="css/sign_up.css" type="text/css" rel="stylesheet">
 </head>
 
-<body>
-  <div id="personal_form">
-    <h1>회원가입</h1>
-    <form name="form" method="get">
-      <label id="form_name">
-        First name&nbsp;<input type="text" name="fname">
-      </label>
-      <label id="form_name">
-        Last name&nbsp;<input type="text" name="lname"><br>
-      </label>
-
-      <label id="form_id">
-        이메일&nbsp;<input type="email" size="15" value=""><br>
-      </label>
-
-      <label id="form_password">
-        비밀번호&nbsp;<input type="password" size="15" value=""><br>
-      </label>
-
-      <label id="form_phone_number">
-        전화번호&nbsp;<input type="tel" size="15" value=""><br>
-      </label>
-
-      성별&nbsp;
-      <label id="form_gender">
-        남<input type="radio" name="gender" value="남" checked>
-      </label>
-      <label id="form_gender">
-        여<input type="radio" name="gender" value="여"><br>
-      </label>
-
-      사용해본 프로그래밍 언어&nbsp;
-      <label id="form_languages">
-        C<input type="checkbox" name="languages" value="C">
-      </label>
-      <label id="form_languages">
-        Java<input type="checkbox" name="languages" value="Java">
-      </label>
-      <label id="form_languages">
-        Python<input type="checkbox" name="languages" value="Python">
-      </label>
-      <label id="form_languages">
-        JavaScript<input type="checkbox" name="languages" value="JavaScript">
-      </label>
-
-      <div style="padding: 10px;">
-        <input id="reset_button" type="reset" value="초기화">
+<body id="container">
+  <div id="outer_box">
+    <div id="left_box">
+      <div id="leftbox_title">
+        <h1>회원가입</h1>
       </div>
-
-      <div style="padding: 10px;">
-        <input id="signup_button" type="submit" value="회원가입">
+      <div id="leftbox_content">
+        <p>
+          회원가입을 통해 다양한 서비스를 이용할 수 있습니다.<br>
+          회원가입 후에는 로그인하여 서비스를 이용하세요.
+        </p>
       </div>
-    </form>
+    </div>
+    <div id="right_box">
+      <form name="form" method="get">
+        <label id="form_name">
+          First name&nbsp;<input type="text" name="fname">
+        </label>
+        <label id="form_name">
+          Last name&nbsp;<input type="text" name="lname"><br>
+        </label>
+
+        <label id="form_id">
+          이메일&nbsp;<input type="email" size="15" value=""><br>
+        </label>
+
+        <label id="form_password">
+          비밀번호&nbsp;<input type="password" size="15" value=""><br>
+        </label>
+
+        <label id="form_phone_number">
+          전화번호&nbsp;<input type="tel" size="15" value=""><br>
+        </label>
+
+        성별&nbsp;
+        <label id="form_gender">
+          남<input type="radio" name="gender" value="남" checked>
+        </label>
+        <label id="form_gender">
+          여<input type="radio" name="gender" value="여"><br>
+        </label>
+
+        사용해본 프로그래밍 언어&nbsp;
+        <label id="form_languages">
+          C<input type="checkbox" name="languages" value="C">
+        </label>
+        <label id="form_languages">
+          Java<input type="checkbox" name="languages" value="Java">
+        </label>
+        <label id="form_languages">
+          Python<input type="checkbox" name="languages" value="Python">
+        </label>
+        <label id="form_languages">
+          JavaScript<input type="checkbox" name="languages" value="JavaScript">
+        </label>
+
+        <div style="padding: 10px;">
+          <input id="reset_button" type="reset" value="초기화">
+        </div>
+
+        <div style="padding: 10px;">
+          <input id="signup_button" type="submit" value="회원가입">
+        </div>
+      </form>
+    </div>
   </div>
 </body>
 
