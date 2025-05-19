@@ -39,7 +39,16 @@ dl {
   font-weight: 500;
 }
 
+#list_item_title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
 
+#ordered_list {
+  font-weight: 500;
+  font-size: 16px;
+}
 
 #my {
   border-radius: 10px;
