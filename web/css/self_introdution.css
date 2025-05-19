@@ -7,10 +7,6 @@ h3 {
   color: rgb(129, 30, 241);
 }
 
-ul {
-  color: rgb(129, 30, 241);
-}
-
 dl {
   color: rgb(210, 162, 250);
 }
@@ -32,6 +28,18 @@ dl {
 #school_logo {
   margin: 0 0 20px 0;
 }
+
+#self_intro_contents {
+  background-color: #eff2f9;
+  padding: 10px 0 10px 0;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #6e7f9d;
+  color: #b8b7fd;
+  margin: 20px 0 20px 10px;
+  font-weight: 500;
+}
+
+
 
 #my {
   border-radius: 10px;
