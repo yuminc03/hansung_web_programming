@@ -1,9 +1,9 @@
 body {
   background-color: #ded3fd;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
-h3,
-h1 {
+h3 {
   color: rgb(129, 30, 241);
 }
 
@@ -18,6 +18,10 @@ ul {
 
 dl {
   color: rgb(210, 162, 250);
+}
+
+#page_title {
+  color: #df88fd;
 }
 
 #images {
