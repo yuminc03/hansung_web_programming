@@ -7,11 +7,6 @@ h3 {
   color: rgb(129, 30, 241);
 }
 
-hr {
-  color: skyblue;
-  border: 2px solid rgb(210, 162, 250);
-}
-
 ul {
   color: rgb(129, 30, 241);
 }
@@ -22,6 +17,10 @@ dl {
 
 #page_title {
   color: #df88fd;
+}
+
+#page_divider {
+  border: 2px solid #b8b7fd;
 }
 
 #images {
