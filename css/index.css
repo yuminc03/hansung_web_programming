@@ -1,0 +1,36 @@
+body {
+  background-color: #ded3fd;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 0;
+}
+
+#menubar {
+  background-color: #b8b7fd;
+  padding: 10px;
+}
+
+#menu {
+  width: max-content;
+}
+
+#menu_item {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+#menu_item:hover {
+  background-color: #b8ceff;
+}
+
+#menu_text {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#content {
+  padding: 20px;
+  background-color: white;
+}
