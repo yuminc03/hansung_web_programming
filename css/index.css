@@ -6,7 +6,6 @@ body {
 }
 
 #menubar {
-  background-color: #b8b7fd;
   padding: 10px 20px;
   display: flex;
   align-items: center;
@@ -46,12 +45,12 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: #effbff;
+  background-color: #b8b7fd;
   height: 500px;
 }
 
 #inner_content {
-  color: #6e7f8d;
+  color: white;
   text-align: center;
 }
 
