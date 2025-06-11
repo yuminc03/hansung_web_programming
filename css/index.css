@@ -61,3 +61,22 @@ body {
 #main_content {
   font-size: 16px;
 }
+
+#about_website {
+  padding: 30px;
+  background-color: #b8ceff;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 300px;
+}
+
+#about_website_title {
+  font-size: 30px;
+}
+
+#about_website_message {
+  font-size: 16px;
+  color: #eff2f9;
+}
