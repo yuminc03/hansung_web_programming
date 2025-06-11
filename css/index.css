@@ -80,3 +80,25 @@ body {
   font-size: 16px;
   color: #eff2f9;
 }
+
+#footer {
+  background-color: #ded3fd;
+  color: white;
+  padding: 30px;
+}
+
+#footer > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer_text {
+  font-size: 14px;
+}
+
+#github_logo {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
