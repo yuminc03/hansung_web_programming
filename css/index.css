@@ -81,6 +81,28 @@ body {
   color: #eff2f9;
 }
 
+#image_section {
+  display: block;
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+#image_section_title {
+  font-size: 36px;
+}
+
+#image_container {
+  display: inline-block;
+}
+
+#gallery_image {
+  width: 30%;
+  margin: 5px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 #footer {
   background-color: #ded3fd;
   color: white;
