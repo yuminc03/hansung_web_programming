@@ -29,14 +29,14 @@
     <div id="right_box">
       <form name="form" method="get">
         <label class="signup_name">
-          성<br><input class="input_text" type="text" name="fname">
+          성<br><input id="first_name" class="input_text" type="text">
         </label>
         <label class="signup_name">
-          이름<br><input class="input_text" type="text" name="lname">
+          이름<br><input id="last_name" class="input_text" type="text">
         </label>
 
         <label class="signup_label">
-          이메일<br><input class="input_text" type="email" size="20" placeholder="example@gmail.com"><br>
+          이메일<br><input id="email" class="input_text" type="email" size="20" placeholder="example@gmail.com"><br>
         </label>
 
         <label class="signup_label">
@@ -44,20 +44,20 @@
         </label>
 
         <label class="signup_label">
-          전화번호<br><input class="input_text" type="tel" size="20" placeholder="010-0000-0000"><br>
+          전화번호<br><input id="phone_number" class="input_text" type="tel" size="20" placeholder="010-0000-0000"><br>
         </label>
 
         <label class="signup_label">
-          생년월일<br><input class="input_text" type="date" value="2000-01-01"><br>
+          생년월일<br><input id="birthdate" class="input_text" type="date" value="2000-01-01"><br>
         </label>
 
         <div class="signup_label">
           성별<br>
           <label class="signup_selector">
-            남<input type="radio" name="gender" value="남" checked>
+            남<input id="man" type="radio" name="gender" value="남" checked>
           </label>
           <label class="signup_selector">
-            여<input type="radio" name="gender" value="여"><br>
+            여<input id="woman" type="radio" name="gender" value="여"><br>
           </label>
         </div>
 
@@ -81,7 +81,7 @@
           <div id="reset_button_container">
             <input id="signup_reset_button" type="reset" value="초기화">
           </div>
-          <input id="signup_button" type="submit" value="회원가입">
+          <input id="signup_button" type="button" value="회원가입" onclick="signup()">
         </div>
       </form>
     </div>
