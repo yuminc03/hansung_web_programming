@@ -72,7 +72,7 @@
   display: block;
 }
 
-#signup_selector {
+.signup_selector {
   font-size: 14px;
   font-weight: bold;
   color: #ded3fd;
