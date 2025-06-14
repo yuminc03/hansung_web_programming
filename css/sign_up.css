@@ -100,6 +100,7 @@
   color: #6e7f9d;
   font-size: 14px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 #signup_reset_button:hover {
@@ -115,6 +116,7 @@
   color: #ded3fd;
   font-size: 14px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 #signup_button:hover {
