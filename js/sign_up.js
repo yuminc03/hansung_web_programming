@@ -52,3 +52,53 @@ function signup() {
 
   alert(message);
 }
+
+function onFocusInputFirstName() {
+  let input = document.getElementById("first_name");
+  input.style.backgroundColor = "#b8ceff";
+}
+
+function onBlurInputFirstName() {
+  let input = document.getElementById("first_name");
+  input.style.backgroundColor = "#effbff";
+}
+
+function onFocusInputLastName() {
+  let input = document.getElementById("last_name");
+  input.style.backgroundColor = "#b8ceff";
+}
+
+function onBlurInputLastName() {
+  let input = document.getElementById("last_name");
+  input.style.backgroundColor = "#effbff";
+}
+
+function onFocusInputEmail() {
+  let input = document.getElementById("email");
+  input.style.backgroundColor = "#b8ceff";
+}
+
+function onBlurInputEmail() {
+  let input = document.getElementById("email");
+  input.style.backgroundColor = "#effbff";
+}
+
+function onFocusInputPassword() {
+  let input = document.getElementById("password");
+  input.style.backgroundColor = "#b8ceff";
+}
+
+function onBlurInputPassword() {
+  let input = document.getElementById("password");
+  input.style.backgroundColor = "#effbff";
+}
+
+function onFocusInputPhoneNumber() {
+  let input = document.getElementById("phone_number");
+  input.style.backgroundColor = "#b8ceff";
+}
+
+function onBlurInputPhoneNumber() {
+  let input = document.getElementById("phone_number");
+  input.style.backgroundColor = "#effbff";
+}

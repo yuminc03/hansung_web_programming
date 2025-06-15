@@ -29,22 +29,27 @@
     <div id="right_box">
       <form name="form" method="get">
         <label class="signup_name">
-          성<br><input id="first_name" class="input_text" type="text">
+          성<br><input id="first_name" class="input_text" type="text" onfocus="onFocusInputFirstName()"
+            onblur="onBlurInputFirstName()">
         </label>
         <label class="signup_name">
-          이름<br><input id="last_name" class="input_text" type="text">
+          이름<br><input id="last_name" class="input_text" type="text" onfocus="onFocusInputLastName()"
+            onblur="onBlurInputLastName()">
         </label>
 
         <label class="signup_label">
-          이메일<br><input id="email" class="input_text" type="email" size="20" placeholder="example@gmail.com"><br>
+          이메일<br><input id="email" class="input_text" type="email" size="20" placeholder="example@gmail.com"
+            onfocus="onFocusInputEmail()" onblur="onBlurInputEmail()"><br>
         </label>
 
         <label class="signup_label">
-          비밀번호<br><input class="input_text" type="password" size="20"><br>
+          비밀번호<br><input id="password" class="input_text" type="password" size="20" onfocus="onFocusInputPassword()"
+            onblur="onBlurInputPassword()"><br>
         </label>
 
         <label class="signup_label">
-          전화번호<br><input id="phone_number" class="input_text" type="tel" size="20" placeholder="010-0000-0000"><br>
+          전화번호<br><input id="phone_number" class="input_text" type="tel" size="20" placeholder="010-0000-0000"
+            onfocus="onFocusInputPhoneNumber()" onblur="onBlurInputPhoneNumber()"><br>
         </label>
 
         <label class="signup_label">
