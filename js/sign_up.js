@@ -5,7 +5,7 @@ function signup() {
     document.getElementById("birthdate").value
   ).getFullYear();
   let currentYear = now.getFullYear();
-  let age = currentYear - birthdate;
+  let age = currentYear - birthdate + 1;
   message += "성: " + document.getElementById("first_name").value + "\n";
   message += "이름: " + document.getElementById("last_name").value + "\n";
   message += "이메일: " + document.getElementById("email").value + "\n";
