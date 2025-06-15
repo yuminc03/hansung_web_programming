@@ -12,14 +12,14 @@ body {
   justify-content: space-between;
 }
 
-#menu_item {
+.menu_item {
   display: inline-block;
   list-style-type: none;
   padding: 10px 20px;
   border-radius: 20px;
 }
 
-#menu_item:hover {
+.menu_item:hover {
   background-color: #b8ceff;
 }
 
@@ -27,6 +27,40 @@ body {
   color: white;
   font-size: 18px;
   text-decoration: none;
+}
+
+.dropbtn {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.event_list {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: -15px;
+}
+
+#used_event_dropdown:hover .event_list {
+  display: block;
+}
+
+.event_item {
+  color: #6e7f8d;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.event_item:hover {
+  background-color: #e4ebf1;
 }
 
 #left_top_text {
