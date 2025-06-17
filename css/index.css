@@ -196,18 +196,29 @@ body {
   margin: 30px 0;
 }
 
+.color_item {
+  display: block;
+  text-align: center;
+}
+
 .color_box {
-  width: 180px;
-  height: 180px;
+  width: 100px;
+  height: 100px;
   border-radius: 20px;
   background-color: white;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .clear_box {
-  width: 180px;
-  height: 180px;
+  width: 100px;
+  height: 100px;
   visibility: hidden;
+}
+
+.color_name {
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
 }
 
 #footer {
