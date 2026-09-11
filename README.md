@@ -13,28 +13,24 @@
 ## 📁 폴더구조
 
 - `index`: 메인 페이지
-- `self_introdution`: 자기 소개 페이지
+- `self_introduction`: 자기 소개 페이지
 - `sign_up`: 회원가입 페이지
 
 ```
 .
 ├── css
 │   ├── index.css
-│   ├── self_introdution.css
+│   ├── self_introduction.css
 │   └── sign_up.css
 ├── img
-│   ├── // 프로젝트, 예제 파일에서 사용한 이미지들
+│   ├── // 프로젝트에서 사용한 이미지들
 ├── index.html
 ├── js
 │   ├── index.js
 │   └── sign_up.js
 ├── README.md
-├── self_introdution.html
-├── sign_up.html
-├── task
-│   ├── // 예제 풀기 과제
-└── web
-├── // 예제 파일
+├── self_introduction.html
+└── sign_up.html
 ```
 
 ## 📖 예제
